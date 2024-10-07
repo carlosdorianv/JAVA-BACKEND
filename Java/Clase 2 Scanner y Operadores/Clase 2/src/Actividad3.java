@@ -38,5 +38,7 @@ public class Actividad3 {
             System.out.println("Ni el número 1 es mayor que el número 2 ni el número 3 es mayor que el número 4.");
         }
         //ternario !!!
+        //cerrar siempre el scanner
+        //Obsydian
     }
 }
