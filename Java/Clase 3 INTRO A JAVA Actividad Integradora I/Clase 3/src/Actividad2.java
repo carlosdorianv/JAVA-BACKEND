@@ -43,9 +43,10 @@ public class Actividad2 {
                     System.out.println("Error: No se puede dividir entre 0.");
                 }
                 break;
+
             default:
-                System.out.println("Opción no válida.");
-                break;
+                throw new IllegalStateException("Opcion Invalida: " + opcion);
+
         }
     }
 }
