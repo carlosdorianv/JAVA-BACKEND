@@ -84,7 +84,8 @@
 > 
 
 ![https://images.ctfassets.net/lg4qnzuw6s7g/6iHdUWjh99Jaw9w79QjUOc/cfb84e2a077dba8e89d7cbbee535b44d/image1.png](https://images.ctfassets.net/lg4qnzuw6s7g/6iHdUWjh99Jaw9w79QjUOc/cfb84e2a077dba8e89d7cbbee535b44d/image1.png)
-
+> [**💡Problema Resuelto**](Clase1/src/Actividad1.java)
+>
 ---
 
 ### **✏️ Actividad 2: Utilizando variables**
