@@ -5,11 +5,9 @@ public class Actividad1 {
 //    Escribe un programa que pida al usuario ingresar una cadena de texto y muestre en pantalla
 //    su longitud utilizando el métdo length() de la clase String.
 
-    public String ingresarTexto() {
-
+    public String ingresarTexto(Scanner scanner) {
         String cadena = "";
         try {
-            Scanner scanner = new Scanner(System.in);
             System.out.print("Ingresa una cadena de texto: ");
             cadena = scanner.nextLine();
 
@@ -38,6 +36,11 @@ public class Actividad1 {
             System.out.println("Ocurrió un error al mostrar la longitud: " + e.getMessage());
             System.exit(1);
         }
+    }
+    public void procesarActividad1(Scanner scanner) {
+        String cadena = ingresarTexto(scanner);
+        int longitud = obtenerLongitud(cadena);
+        mostrarLongitud(longitud);
     }
 }
 

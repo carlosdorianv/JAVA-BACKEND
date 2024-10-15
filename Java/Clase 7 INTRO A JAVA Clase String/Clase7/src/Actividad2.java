@@ -6,11 +6,9 @@ import java.util.Scanner;
 //     separado, y luego muestre en pantalla el nombre completo utilizando el métdo
 //     concat() de la clase String.
 
-        public String ingresarNombre() {
-
+        public String ingresarNombre(Scanner scanner) {
             String nombre = null;
             try {
-                Scanner scanner = new Scanner(System.in);
                 System.out.print("Ingresa tu nombre: ");
                 nombre = scanner.nextLine();
 
@@ -21,11 +19,9 @@ import java.util.Scanner;
             return nombre;
         }
 
-        public String ingresarApellido() {
-
+        public String ingresarApellido(Scanner scanner) {
             String apellido = null;
             try {
-                Scanner scanner = new Scanner(System.in);
                 System.out.print("Ingresa tu apellido: ");
                 apellido = scanner.nextLine();
 
@@ -40,7 +36,6 @@ import java.util.Scanner;
             String nombreCompleto = null;
             try {
                 nombreCompleto = nombre.concat(" ").concat(apellido);
-
             } catch (NullPointerException e) {
                 System.out.println("El nombre o apellido no pueden ser nulos." + e.getMessage());
                 System.exit(1);
@@ -56,6 +51,12 @@ import java.util.Scanner;
                 System.exit(1);
             }
         }
+        public void procesarActividad2(Scanner scanner){
+            String nombre = ingresarNombre(scanner);
+            String apellido = ingresarApellido(scanner);
+            String nombreCompleto = concatenarNombreCompleto(nombre, apellido);
+            mostrarNombreCompleto(nombreCompleto);
+     }
     }
 
 

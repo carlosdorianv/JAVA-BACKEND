@@ -7,10 +7,10 @@ public class Actividad3 {
 //    métdo substring() de la clase String para extraer la subcadena que se encuentra entre los índices
 //    ingresados por el usuario, y muestra la subcadena resultante en pantalla.
 
-    public String ingresarFrase() {
+    public String ingresarFrase(Scanner scanner) {
         String frase = null;
         try {
-            Scanner scanner = new Scanner(System.in);
+//            Scanner scanner = new Scanner(System.in);
             System.out.print("Ingresa una frase: ");
             frase = scanner.nextLine();
 
@@ -21,10 +21,9 @@ public class Actividad3 {
         return frase;
     }
 
-    public int ingresarIndiceI() {
+    public int ingresarIndiceI(Scanner scanner) {
         int indicei = 0;
         try {
-                Scanner scanner = new Scanner(System.in);
                 System.out.print("Ingresa el índice inicial: ");
                 indicei = scanner.nextInt();
 
@@ -35,10 +34,9 @@ public class Actividad3 {
         return indicei;
     }
 
-    public int ingresarIndiceF(){
+    public int ingresarIndiceF(Scanner scanner){
         int indiceF = 0;
         try {
-            Scanner scanner = new Scanner(System.in);
             System.out.print("Ingresa el índice final: ");
             indiceF = scanner.nextInt();
         } catch (Exception e){
@@ -72,5 +70,13 @@ public class Actividad3 {
             System.out.println("Ocurrió un error al mostrar la subcadena: " + e.getMessage());
             System.exit(1);
         }
+    }
+
+    public void procesarActividad3(Scanner scanner) {
+        String frase = ingresarFrase(scanner);
+        int indiceI = ingresarIndiceI(scanner);
+        int indiceF = ingresarIndiceF(scanner);
+        String subCadena = extraerSubcadena(frase, indiceI, indiceF);
+        mostrarSubcadena(subCadena);
     }
 }
