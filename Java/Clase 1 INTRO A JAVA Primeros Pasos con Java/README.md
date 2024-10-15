@@ -40,19 +40,10 @@
 **1. Primero debes descargar e instalar Java. Para descargar Java (versión del openjdk provista por la Eclipse Foundation) de acuerdo a tu sistema operativo ingresa al siguiente link:**
 
 **👉[Descargar Java](https://adoptium.net/es/temurin/releases/?version=20)**
-
-**🎥 Si necesitas ayuda, te dejamos un video para guiarte:**
-
-[**Descarga de JDK | JAVA | Egg**](https://youtu.be/gwFA2FX0zks)
-
 > 💡Optamos por la versión 20 de Java, lanzada en marzo de 2023, ya que sus mejoras también se verán reflejadas en la próxima versión 21 que está por salir. Puedes obtener más información sobre el soporte de las versiones de Java visitando el siguiente enlace 👉link.
 > 
 
 **2. Luego vas a instalar y configurar las variables de entorno en Java**
-
-**👉 Usa el siguiente video de guía**
-
-[**Instalación de JDK | JAVA | Egg**](https://youtu.be/VV-gR7hEzwE)
 
 > 💡Para chequear que todo esté correctamente instalado, puedes abrir la terminal en tu ordenador y colocar java  - -version
 > 
@@ -60,10 +51,6 @@
 ![https://images.ctfassets.net/lg4qnzuw6s7g/6f7NEFcUm5DSTBEMwU8f8v/bccf5006521f302c53c82a622e7076f2/image2.png](https://images.ctfassets.net/lg4qnzuw6s7g/6f7NEFcUm5DSTBEMwU8f8v/bccf5006521f302c53c82a622e7076f2/image2.png)
 
 **3. Para finalizar con el seteo del ambiente de trabajo, vas a abrir Visual Studio Code, irás a la parte de Aplicaciones y harás click en instalar “Extension Pack for Java”.**
-
-**🎥 Si necesitas ayuda, te dejamos un video para guiarte:**
-
-[**Instalar JAVA extension pack | JAVA | Egg**](https://youtu.be/kaf1uFt6Vts)
 
 **4. Una vez completada esta instalación, has configurado tu entorno de trabajo y ¡está todo listo para comenzar a programar! 💪**
 
@@ -78,25 +65,11 @@
 
 **¡Es hora de poner en práctica lo aprendido y dar tus primeros pasos en la programación!**
 
-> 💡Atención
-> 
-> 
-> **Antes de finalizar su sesión en equipo de hoy, un integrante deberá compartir su pantalla y explicar en detalle cómo resolvió los ejercicios propuestos. Puede ser el facilitador o cualquier compañero que se anime (puedes ser tú 💪).**
-> 
-> **Aprovecha esta oportunidad para enriquecer tu propia resolución y participa activamente haciendo preguntas.**
-> 
-
 ---
 
-### **✏️ Actividad: Imprimiendo un mensaje por consola**
+### **✏️ Actividad 1: Imprimiendo un mensaje por consola**
 
 **El objetivo del siguiente ejercicio es familiarizarte con la impresión en la consola utilizando Java. Esto te permitirá practicar la sintaxis básica y comprender cómo mostrar información en la consola.**
-
-### **🎥 Material Audiovisual**
-
-**Te invitamos a ver el siguiente video, el cual complementará tu teoría y sentará las bases para llevar a cabo tus próximas actividades.**
-
-**A partir del anterior video proporcionado:**
 
 1. **Crea un programa que imprima "Bienvenido a tu curso de Java" en la consola.**
 2. **Crea un programa que imprima "Mi nombre es [colocaAquiTuNombre]" en la consola.**
@@ -114,17 +87,11 @@
 
 ---
 
-### **✏️ Actividad: Utilizando variables**
+### **✏️ Actividad 2: Utilizando variables**
 
 **En los siguientes ejercicios utilizarás la declaración de variables y los diferentes tipos de datos en Java.**
 
 **A través de la creación de variables de distintos tipos, practicarás la asignación de valores y la impresión de información en la consola. Al finalizar, lograrás imprimir un mensaje personalizado que incluya el nombre y la edad almacenados en las variables correspondientes.**
-
-### **🎥 Material Audiovisual**
-
-**Te invitamos a ver el siguiente video, el cual complementará tu teoría y sentará las bases para llevar a cabo tus próximas actividades.**
-
-**A partir del anterior video proporcionado, resuelve 👇**
 
 **1. Declara una variable por cada uno de los siguientes tipos de dato, asignando un valor (nombre y valor de tu preferencia):**
 
@@ -144,7 +111,7 @@
 
 ---
 
-### **✏️ Actividad: Seleccionando el Tipo de Dato Adecuado en Java**
+### **✏️ Actividad 3: Seleccionando el Tipo de Dato Adecuado en Java**
 
 **En esta actividad, se te proporcionarán 10 datos reales y deberás determinar el tipo de dato más adecuado en Java para representar cada uno. Utiliza tus conocimientos sobre los tipos de datos en Java para tomar decisiones precisas.**
 
@@ -179,7 +146,7 @@
 
 ---
 
-### **✏️ Actividad: Ejercicio Complementario**
+### **✏️ Actividad 4: Ejercicio Complementario**
 
 **✨ Este ejercicio es de tipo complementario. Esto quiere decir que te ayudará a avanzar en profundidad en el tema visto anteriormente.**
 
@@ -191,14 +158,6 @@
 2. **Declara una variable llamada temperaturaActual y asigna como valor "19". Selecciona el tipo de variable que permita representar la temperatura de manera precisa.**
 3. **Declara una variable llamada datoLogico y asigna como valor "true". Elige el tipo de variable adecuado para almacenar valores lógicos.**
 4. **Utiliza la función System.out.println() para imprimir cada variable declarada, concatenándola con un mensaje descriptivo que aporte contexto.**
-
----
-
-### **📖 Soluciones a las Actividades**
-
-**¿Te encontraste con algún desafío al abordar alguna de las actividades propuestas? Aquí te presentamos algunas soluciones que pueden servirte como referencia o guía para resolverlas.**
-
-**👉 [Soluciones](https://drive.google.com/file/d/1NlcZr6qV_IF1CEpncdf1K-Mn2f0jP1Hn/view?usp=drive_link)**
 
 ---
 
