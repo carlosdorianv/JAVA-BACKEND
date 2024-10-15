@@ -1,6 +1,22 @@
 import java.util.Scanner;
 
 public class Actividad3 {
+//
+//    En este ejercicio, usarás los operadores de comparación y lógicos en Java. Interactuarás con el usuario para
+//    comparar dos números ingresados y evaluar diversas condiciones utilizando operadores como mayor que,
+//    distinto que y divisible por dos. De esta manera, comprenderás cómo funcionan y cuál es su sintaxis,
+//    así como su aplicación en la lógica de programación.
+//    Además, realizarás comparaciones adicionales utilizando operadores lógicos para evaluar condiciones combinadas.
+//    Al finalizar el ejercicio, podrás determinar si se cumplen ciertas condiciones lógicas establecidas.
+
+//   1. Pide al usuario que ingrese dos números, y:
+//    A. Compara si el primer  número  ingresado  es mayor al segundo número  ingresado. Debería verse así:
+//    B. Verifica si el primer número ingresado  es distinto al segundo número ingresado . Muestra el resultado en consola.
+//    C. Verifica si el primer número ingresado  es divisible por 2 . Muestra el resultado en consola.
+
+//   2. Pide al usuario que ingrese otros 2 números, y realiza las siguientes validaciones:
+//    A. Si el número 1 es mayor al número 2 y si el número 3 es mayor al número 4.
+//    B. Si el número 1 es mayor al número 2 o si el número 3 es mayor al número 4.
 
     public void compararNumeros(int num1, int num2) {
 

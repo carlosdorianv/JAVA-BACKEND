@@ -37,13 +37,8 @@
 
 ---
 
-### **🎥 Material Audiovisual**
 
-**Te invitamos a ver el siguiente video, el cual complementará tu teoría y sentará las bases para llevar a cabo tus próximas actividades.**
-
----
-
-### **✏️ Actividad: Usando la Clase Scanner**
+### **✏️ Actividad 1 : Usando la Clase Scanner**
 
 **Para entender mejor el concepto de esta clase, practicarás con los siguientes ejercicios:**
 
@@ -66,14 +61,9 @@
 > **Antes de finalizar su sesión en equipo de hoy, un integrante deberá compartir su pantalla y explicar en detalle cómo resolvió los ejercicios propuestos. Puede ser el facilitador o cualquier compañero que se anime (puedes ser tú 💪).**
 > 
 > **Aprovecha esta oportunidad para enriquecer tu propia resolución y participa activamente haciendo preguntas.**
-> 
-
----
-
-### **🎥 Material Audiovisual**
-
-**Te invitamos a ver el siguiente video, el cual complementará tu teoría y sentará las bases para llevar a cabo tus próximas actividades.**
-
+>
+> 💡[**Problema Resuelto**](Clase 2/src/Actividad1.java)
+>
 ---
 
 ### **✏️ Actividad: Operaciones básicas**
@@ -87,13 +77,8 @@
 1. **Declara dos variables, y asígnales un valor a cada una de ellas.**
 2. **Realiza las 5 operaciones básicas posibles en Java y muestra el resultado en consola. Te animamos a mostrar el resultado dentro de un texto para que se vea ordenado el resultado, Ej: La suma de las 2 variables es : “[resultado]”;**
 3. **Posteriormente, pide al usuario que ingrese dos números, guardarlos en variables previamente declaradas, realiza la suma de los números y muestra el resultado en la consola.**
-
----
-
-### **🎥 Material Audiovisual**
-
-**Te invitamos a ver el siguiente video, el cual complementará tu teoría y sentará las bases para llevar a cabo tus próximas actividades.**
-
+> 💡[**Problema Resuelto**](Clase 2/src/Actividad2.java)
+>
 ---
 
 ### **✏️ Actividad: Usando los operadores de comparación**
@@ -122,8 +107,9 @@
 **B. Si el número 1 es mayor al número 2 o si el número 3 es mayor al número 4.**
 
 > 💡Los operadores lógicos más utilizados en Java son: AND (&&), OR (||), siendo AND = y  / OR = o.
-> 
 
+> 💡[**Problema Resuelto**](Clase 2/src/Actividad3.java)
+>
 ---
 
 ### **✏️ Actividad: Ejercicios Complementarios**
@@ -138,7 +124,10 @@
 - **Determina si el usuario es mayor de edad (tener 18 años o más) y muestra un mensaje apropiado.**
 
 > 💡Al declarar la variable del tipo constante, recuerda las convenciones recomendadas para hacerlo.
-> 
+>
+
+> 💡[**Problema Resuelto**](Clase 2/src/Actividad4.java)
+>
 
 **2. Calculadora de Área y Perímetro:**
 
@@ -150,12 +139,7 @@
 - **Muestra el resultado del área por consola junto con un mensaje adecuado.**
 
 > 💡 Recuerda: Al declarar las variables, ten en cuenta si los valores ingresados por el usuario pueden ser decimales. En tal caso, debes utilizar variables de tipo flotante o doble para garantizar una precisión decimal adecuada.
-> 
 
+> 💡[**Problema Resuelto**](Clase 2/src/Actividad5.java)
+>
 ---
-
-### **📖 Soluciones a las Actividades**
-
-**¿Te encontraste con algún desafío al abordar alguna de las actividades propuestas? Aquí te presentamos algunas soluciones que pueden servirte como referencia o guía para resolverlas.**
-
-**👉 [Soluciones](https://drive.google.com/file/d/1OVpE3R2ynf9G7w-6RaXWwtJFp8CVCEsc/view?usp=drive_link)**

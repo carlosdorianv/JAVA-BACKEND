@@ -84,7 +84,7 @@
 > 
 
 ![https://images.ctfassets.net/lg4qnzuw6s7g/6iHdUWjh99Jaw9w79QjUOc/cfb84e2a077dba8e89d7cbbee535b44d/image1.png](https://images.ctfassets.net/lg4qnzuw6s7g/6iHdUWjh99Jaw9w79QjUOc/cfb84e2a077dba8e89d7cbbee535b44d/image1.png)
-> [**💡Problema Resuelto**](Clase1/src/Actividad1.java)
+> 💡[**Problema Resuelto**](Clase1/src/Actividad1.java)
 >
 ---
 
@@ -108,8 +108,9 @@
 **3. Declara una nueva variable para almacenar tu edad y otra para almacenar tu nombre e imprimir en pantalla un texto que diga “Mi nombre es [nombre], y tengo [edad] años”.**
 
 > 💡A tener en cuenta: Para concatenar un texto y una variable se usa el símbolo “+”.
-> 
-
+>
+> 💡[**Problema Resuelto**](Clase1/src/Actividad2.java)
+>
 ---
 
 ### **✏️ Actividad 3: Seleccionando el Tipo de Dato Adecuado en Java**
@@ -143,8 +144,9 @@
 **Justificación: se permite decimal y cubre un amplio rango de valores posibles para la temperatura**
 
 > Nota: Utiliza los tipos de datos primitivos y estructurados disponibles en Java y asegúrate de justificar tu elección considerando la naturaleza de la información proporcionada.
-> 
-
+>
+> 💡[**Problema Resuelto**](Clase1/src/Actividad3.java)
+>
 ---
 
 ### **✏️ Actividad 4: Ejercicio Complementario**
@@ -160,6 +162,8 @@
 3. **Declara una variable llamada datoLogico y asigna como valor "true". Elige el tipo de variable adecuado para almacenar valores lógicos.**
 4. **Utiliza la función System.out.println() para imprimir cada variable declarada, concatenándola con un mensaje descriptivo que aporte contexto.**
 
+> 💡[**Problema Resuelto**](Clase1/src/Actividad4.java)
+>
 ---
 
 ### **✅ Checklist**

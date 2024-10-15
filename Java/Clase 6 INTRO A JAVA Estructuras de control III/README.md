@@ -31,29 +31,26 @@
 
 ---
 
-### **🎥 Material Audiovisual**
-
-**Te invitamos a ver el siguiente video, el cual complementará tu teoría y sentará las bases para llevar a cabo tus próximas actividades.**
-
----
 
 > 💡 Aprendiendo de Excepciones en la Consola: Puedes aprovechar las excepciones que ocurren durante la ejecución del programa para aprender más sobre los posibles errores. Por ejemplo, si realizas una división por cero, puedes leer la excepción lanzada para entender mejor la causa del error. Verás que se produce una excepción ArithmeticException debido a la división por cero. El programa captura esta excepción y muestra un mensaje de error informativo en la consola. Al leer este mensaje, puedes comprender mejor el error y cómo evitarlo en el futuro.
 > 
 
 ---
 
-### **✏️ Actividad: Division Segura**
+### **✏️ Actividad 1: Division Segura**
 
 **Escribe un programa que pida al usuario que ingrese dos números enteros y realice la división del primer número entre el segundo número. Implementa un bloque "try-catch" para manejar la excepción en caso de que se intente realizar una división por cero. En caso de que ocurra la excepción, muestra un mensaje apropiado en la pantalla.**
-
+> [**💡Problema Resuelto**](Clase6/src/Actividad1.java)
 ---
 
-### **✏️ Actividad: Resta con Manejo de Excepciones**
+### **✏️ Actividad 2: Resta con Manejo de Excepciones**
 
 **Escribe un programa que solicite al usuario ingresar dos números. Luego, realiza la resta del primer número menos el segundo número. Implementa un bloque "try-catch" para manejar las excepciones que puedan surgir en caso de que el usuario no ingrese números. En caso de que se produzca una excepción, muestra un mensaje apropiado en pantalla. Si no se produce ninguna excepción, muestra el resultado de la resta.**
 
 > 💡Recuerda, que en la documentación oficial, podrás conocer los tipos de excepciones existentes, te invitamos a acceder para investigar sobre las mismas.
 > 
+
+> [**💡Problema Resuelto**](Clase6/src/Actividad2.java)
 
 # **👣 Continuando en el uso de bloque Try & Catch**
 
@@ -69,26 +66,11 @@
 
 ---
 
-### **✏️ Actividad: Conversión de Cadena a Entero**
+### **✏️ Actividad 3: Conversión de Cadena a Entero**
 
 **Escribe un programa que solicite al usuario ingresar una cadena de caracteres que represente un número entero. Utiliza el método Integer.parseInt() para convertir la cadena en un número entero. Implementa un bloque "try-catch" para manejar la excepción en caso de que la cadena ingresada no pueda ser convertida en un número entero. En caso de que se produzca la excepción, muestra un mensaje apropiado en la pantalla.**
 
-> 🛑✋ No dudes en pedir ayuda a tus compañeros del día si te surge alguna duda o si encuentras dificultades para avanzar con alguna de las actividades propuestas.
-> 
 
+
+> [**💡Problema Resuelto**](Clase6/src/Actividad3.java)
 ---
-
-### **✏️ Actividad: Ejercicio Complementario**
-
-> ✨ Este ejercicio es de tipo complementario. Esto quiere decir que te ayudará a avanzar en profundidad en el tema visto, pero no es obligatorio.
-> 
-
-**Te recomendamos analizar los ejercicios realizados en pasos anteriores y agregar al menos una cláusula try-catch para manejar posibles excepciones que puedan surgir en algunos de ellos.**
-
----
-
-### **📖 Soluciones a las Actividades**
-
-**¿Te encontraste con algún desafío al abordar alguna de las actividades propuestas? Aquí te presentamos algunas soluciones que pueden servirte como referencia o guía para resolverlas.**
-
-**👉 [Soluciones](https://drive.google.com/file/d/1NcRg3uROcsCbH8yPQSMNjraneonXZUN-/view?usp=drive_link)**

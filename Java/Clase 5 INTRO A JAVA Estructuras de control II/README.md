@@ -29,19 +29,14 @@
 
 ---
 
-### **🎥 Material Audiovisual**
 
-**Te invitamos a ver el siguiente video, el cual complementará tu teoría y sentará las bases para llevar a cabo tus próximas actividades.**
-
----
-
-### **✏️ Actividad: Ejercicio de Días de la Semana**
+### **✏️ Actividad 1: Ejercicio de Días de la Semana**
 
 **En esta actividad, escribirás un programa que solicite al usuario ingresar un número del 1 al 7, que representará un día de la semana. Luego, el programa mostrará en pantalla el nombre correspondiente a ese día. Utilizaremos la estructura "switch" para implementar este programa.**
-
+> [**💡Problema Resuelto**](Clase5/src/Actividad1.java)
 ---
 
-### **✏️ Actividad: Conversión de Calificaciones**
+### **✏️ Actividad 2: Conversión de Calificaciones**
 
 **En esta actividad, desarrollarás un programa que solicitará al usuario ingresar una calificación numérica del 1 al 5. Luego, mostrará en pantalla la calificación correspondiente en letras, utilizando la siguiente escala:**
 
@@ -50,18 +45,12 @@
 - **3: "Suficiente"**
 - **4: "Notable"**
 - **5: "Sobresaliente"**
-
+> [**💡Problema Resuelto**](Clase5/src/Actividad2.java)
+---
 # **👣 Seguimos con estructuras de control: Switch**
 
-> 💡Atención
-> 
-> 
-> **Antes de finalizar su sesión en equipo de hoy, un integrante deberá compartir su pantalla y explicar en detalle cómo resolvió los ejercicios propuestos. Puede ser el facilitador o cualquier compañero que se anime (puedes ser tú 💪).**
-> 
-> **Aprovecha esta oportunidad para enriquecer tu propia resolución y participa activamente haciendo preguntas.**
-> 
 
-### **✏️ Actividad: Selección de Opción**
+### **✏️ Actividad 3: Selección de Opción**
 
 **En esta actividad, vas a desarrollar un programa que mostrará un menú con las siguientes opciones:**
 
@@ -72,10 +61,10 @@
 **El programa solicitará al usuario que ingrese un número del 1 al 3 para seleccionar una opción.**
 
 **Utilizarás la estructura "switch" para implementar este programa y mostrar en pantalla el mensaje correspondiente a la opción seleccionada.**
-
+> [**💡Problema Resuelto**](Clase5/src/Actividad3.java)
 ---
 
-### **✏️ Actividad: Selección de Figura Geométrica**
+### **✏️ Actividad 4: Selección de Figura Geométrica**
 
 **Mediante una estructura switch, desarrollarás un programa que pida al usuario ingresar un número del 1 al 3 para seleccionar una figura geométrica: 1 para círculo, 2 para cuadrado y 3 para triángulo. Después, solicitará al usuario los datos necesarios para calcular el área de la figura seleccionada. Estos datos serán:**
 
@@ -84,28 +73,17 @@
 - **Para el triángulo: la base y la altura.**
 
 **Finalmente, el programa mostrará en pantalla el área correspondiente a la figura seleccionada.**
-
+> [**💡Problema Resuelto**](Clase5/src/Actividad4.java)
 ---
 
-### **🧰Material Extra**
 
-**Te proporcionamos acceso a un material opcional de lectura. Este se encuentra en inglés. Si deseas, puedes tomar como desafío hacer la lectura sin traducirlo al español.  It's time to practice your english💪. En caso contrario, puedes utilizar cualquier herramienta que consideres para traducirlo.**
-
-[**Artículo](https://www.geeksforgeeks.org/decision-making-javaif-else-switch-break-continue-jump/): Decision Making in Java**
-
-> 💡 Recuerda: Al empezar a leer artículos en otro idioma, lo crucial es captar la idea general. No te preocupes demasiado por cada detalle en las primeras lecturas.
-> 
-
----
-
-### **✏️ Actividad: Ejercicios Complementarios**
-
-> ✨ Estos ejercicios son de tipo complementario. Esto quiere decir que te ayudará a avanzar en profundidad en el tema visto, pero no son obligatorios. Te recomendamos intentar con tu equipo trabajar al menos uno de ellos.
-> 
-1. **Verificación de Día Hábil**
+### **✏️ Actividad 5: Verificación de Día Hábil**
+1.**Verificación de Día Hábil**
 
 **En este ejercicio, crearás un programa que pedirá al usuario ingresar un número del 1 al 7, representando un día de la semana. El programa determinará si ese día es hábil o no. Se mostrará el resultado en pantalla. Se considera que los días hábiles son del 1 al 5 (de lunes a viernes). Utilizaremos la estructura "switch" para implementar este programa. ( Ten en cuenta que los días hábiles son del 1 al 5 (de lunes a viernes).)**
-
+> [**💡Problema Resuelto**](Clase5/src/Actividad5.java)
+---
+### **✏️ Actividad 6: Calculadora de Área y Perímetro**
 1. **Calculadora de Área y Perímetro:**
     1. **Implementando el uso de la estructura "switch expression", solicita al usuario que elija entre una de las siguientes dos figuras geométricas:**
         1. **Opción 1: "Circulo"**
@@ -115,11 +93,5 @@
         2. **Para el Rectángulo: Solicita el valor de la base y de la altura.**
     3. **Dentro de la opción elegida, permite al usuario seleccionar si desea conocer el área o el perímetro de dicha figura.**
     4. **Realiza los cálculos necesarios y muestra el resultado por consola junto con un mensaje adecuado.**
-
+> [**💡Problema Resuelto**](Clase5/src/Actividad6.java)
 ---
-
-### **📖 Soluciones a las Actividades**
-
-**¿Te encontraste con algún desafío al abordar alguna de las actividades propuestas? Aquí te presentamos algunas soluciones que pueden servirte como referencia o guía para resolverlas.**
-
-**👉 [Soluciones](https://drive.google.com/file/d/1ZRtnoKK0RZ8cbROLT59Q_9C-lFE03V0u/view?usp=drive_link)**

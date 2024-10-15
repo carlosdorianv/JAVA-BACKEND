@@ -29,16 +29,10 @@
 
 ---
 
-### **🎥 Material Audiovisual**
-
-**Te invitamos a ver los siguientes videos, los cuales complementarán tu teoría y sentarán las bases para llevar a cabo tus próximas actividades.**
-
----
-
-### **✏️ Actividad: Clasificación de Números**
+### **✏️ Actividad 1: Clasificación de Números**
 
 **En esta actividad, deberás escribir un programa que solicite al usuario un número y determine si es positivo, negativo o cero. El resultado se mostrará en pantalla.**
-
+> [**💡Problema Resuelto**](Clase4/src/Actividad1.java)
 # **👣 Profundizando el uso de estructuras de control**
 
 **¡Felicitaciones! ya lograste tu primer ejercicio con la estructura de control if, if-else.**
@@ -55,7 +49,7 @@
 
 ---
 
-### **✏️ Actividad: Practicando con estructuras de control**
+### **✏️ Actividad 2: Practicando con estructuras de control**
 
 **En este ejercicio de calificación, tu tarea es escribir un programa que solicite al usuario ingresar un número entre 0 y 100. Luego, el programa validará el número ingresado y mostrará la calificación correspondiente según la siguiente escala:**
 
@@ -69,31 +63,33 @@
 **El programa mostrará en la consola el valor de la calificación obtenida.**
 
 **Realiza varias pruebas de tu programa, para asegurarte que la lógica implementada sea la correcta.**
-
+> [**💡Problema Resuelto**](Clase4/src/Actividad2.java)
 ---
 
-### **✏️ Actividad: Divisibilidad**
+### **✏️ Actividad 3: Divisibilidad**
 
 **En esta actividad, escribirás un programa que solicite al usuario un número y determine si es divisible por 5, por 3, por ambos o por ninguno. El resultado se mostrará en pantalla.**
 
 > 💡 Un número es divisible por otro si al dividirlos no queda ningún residuo. Por ejemplo, si el residuo de la división es cero, entonces el número es divisible por el otro. Utilizaremos el operador de módulo (%) para verificar si un número es divisible por otro en este ejercicio.
-> 
 
+> [**💡Problema Resuelto**](Clase4/src/Actividad3.java)
 ---
 
-### **✏️ Actividad: Ejercicios Complementarios**
+### **✏️ Actividad 4: Ejercicio Verificación de Contraseña**
 
-**✨ Estos ejercicios son de tipo complementario. Esto quiere decir que te ayudará a avanzar en profundidad en el tema visto. Te recomendamos intentar con tu equipo trabajar al menos uno de ellos.**
-
-**1. Verificación de Contraseña:**
+**Verificación de Contraseña:**
 
 **En este ejercicio, escribirás un programa que pida al usuario una contraseña y verificará si coincide con una contraseña predefinida. Si la contraseña ingresada es correcta, se mostrará un mensaje de "Acceso concedido". En caso contrario, se mostrará un mensaje de "Acceso denegado".**
-
-**2. Cálculo de Descuento:**
+> [**💡Problema Resuelto**](Clase4/src/Actividad4.java)
+---
+### **✏️ Actividad 5: Ejercicio Calculo de Descuento**
+**Cálculo de Descuento:**
 
 **En este ejercicio, desarrollarás un programa que solicitará al usuario el precio de un producto y determinará si tiene derecho a un descuento. Si el precio es igual o mayor a $100, se aplicará un descuento del 10% y se mostrará el nuevo precio con descuento. De lo contrario, se mostrará el precio original sin descuento.**
-
-**3. Determinación de Edades**
+> [**💡Problema Resuelto**](Clase4/src/Actividad5.java)
+---
+### **✏️ Actividad 6: Determinación de Edades**
+**Determinación de Edades**
 
 **En este ejercicio, desarrollarás un programa que solicite al usuario su edad y determine en qué categoría se encuentra. Las categorías son las siguientes:**
 
@@ -102,11 +98,6 @@
 - **Si la edad es igual o mayor a 65 años, mostrar el mensaje "Eres un adulto mayor".**
 
 **El programa deberá mostrar el mensaje correspondiente según la categoría de edad en la que se encuentre el usuario.**
-
+> [**💡Problema Resuelto**](Clase4/src/Actividad6.java)
 ---
 
-### **📖 Soluciones a las Actividades**
-
-**¿Te encontraste con algún desafío al abordar alguna de las actividades propuestas? Aquí te presentamos algunas soluciones que pueden servirte como referencia o guía para resolverlas.**
-
-**👉 [Soluciones](https://drive.google.com/file/d/1b7SX5gvt13qOIIV57EvWjDdxKVi608pP/view?usp=drive_link)**

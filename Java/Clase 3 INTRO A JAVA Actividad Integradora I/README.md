@@ -32,13 +32,7 @@
 
 ---
 
-### **🎥 Material Audiovisual**
-
-**Te invitamos a ver el siguiente video para observar cómo funciona el programa que realizarás posteriormente:**
-
----
-
-### **✏️ Actividad: Programa identificador de número par o impar**
+### **✏️ Actividad 1: Programa identificador de número par o impar**
 
 **Después de analizar el funcionamiento del programa requerido en el video proporcionado, tu tarea es escribir el código necesario para cumplir con los siguientes puntos:**
 
@@ -47,7 +41,8 @@
 3. **Muestra el resultado en la consola.**
 
 **Recuerda utilizar el operador ternario para simplificar la lógica del programa y optimizar su escritura.**
-
+> 💡[**Problema Resuelto**](Clase 3/src/Actividad1.java)
+>
 # **👣 Desafío II**
 
 **El objetivo de este desafío es crear una calculadora básica en Java que pueda realizar operaciones aritméticas simples, como suma, resta, multiplicación y división.**
@@ -62,13 +57,8 @@
 
 ---
 
-### **🎥 Material Audiovisual**
 
-**Te invitamos a ver el siguiente video para observar cómo funciona el programa que realizarás posteriormente:**
-
----
-
-### **✏️ Actividad: Creando una calculadora básica**
+### **✏️ Actividad 2: Creando una calculadora básica**
 
 **Después de analizar el funcionamiento del programa requerido en el video proporcionado, tu tarea es escribir el código necesario para cumplir con los siguientes puntos:**
 
@@ -78,7 +68,7 @@
 4. **Muestra el resultado de la operación en la consola.**
 
 > 💡 Recuerda utilizar el operador ternario para simplificar la lógica del programa y optimizar su escritura.
-> 
 
 > 💡 Si has completado las actividades propuestas y dispones de tiempo adicional, considera renderizar tu código. Mejorar la legibilidad y claridad del código facilita su comprensión y colaboración.
->
+
+> 💡[**Problema Resuelto**](Clase 3/src/Actividad2.java)
