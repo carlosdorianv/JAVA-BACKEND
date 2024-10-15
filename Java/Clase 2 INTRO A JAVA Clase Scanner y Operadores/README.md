@@ -45,7 +45,8 @@
 1. **Solicita al usuario que ingrese su nombre (cadena de texto), guárdalo en una variable e imprime el dato por consola..**
 2. **Solicita al usuario que ingrese su edad (número), guárdalo en una variable e imprime el dato por consola..**
 3. **Luego imprime en pantalla un mensaje que diga “Su nombres es [nombre del usuario] y su edad es [edad del usuario]”.**
-
+> 💡[**Problema Resuelto**](Clase 2/src/Actividad1.java)
+>
 > 💡A tener en cuenta:
 > 
 > - **Evalúa al declarar tus variables que “tipo” de dato almacenará.**
@@ -62,8 +63,7 @@
 > 
 > **Aprovecha esta oportunidad para enriquecer tu propia resolución y participa activamente haciendo preguntas.**
 >
-> 💡[**Problema Resuelto**](Clase 2/src/Actividad1.java)
->
+
 ---
 
 ### **✏️ Actividad: Operaciones básicas**
