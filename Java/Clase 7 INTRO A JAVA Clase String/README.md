@@ -43,13 +43,13 @@
 > 💡[**Problema Resuelto**](Clase7/src/Actividad1.java)
 ---
 
-### **✏️ Actividad 2:Concatenación de Cadenas**
+### **✏️ Actividad 2: Concatenación de Cadenas**
 
 **Escribe un programa que solicite al usuario ingresar su nombre y apellido por separado, y luego muestre en pantalla el nombre completo utilizando el método concat() de la clase String.**
 > 💡[**Problema Resuelto**](Clase7/src/Actividad2.java)
 ---
 
-### **✏️ Actividad 3:Extracción de Subcadena**
+### **✏️ Actividad 3: Extracción de Subcadena**
 
 **Escribe un programa que solicite al usuario ingresar una frase y dos números enteros, que representen un índice inicial y un índice final. Utiliza el método substring() de la clase String para extraer la subcadena que se encuentra entre los índices ingresados por el usuario, y muestra la subcadena resultante en pantalla.**
 > [**💡Problema Resuelto**](Clase7/src/Actividad3.java)

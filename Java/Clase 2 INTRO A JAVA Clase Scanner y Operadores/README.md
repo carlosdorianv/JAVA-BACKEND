@@ -66,7 +66,7 @@
 
 ---
 
-### **✏️ Actividad: Operaciones básicas**
+### **✏️ Actividad 2: Operaciones básicas**
 
 **En esta actividad, practicarás el uso de operaciones aritméticas en Java. A través de la realización de diversas operaciones entre números, fortalecerás tu conocimiento sobre las operaciones básicas disponibles en el lenguaje, como la suma (+), resta (-), multiplicación (*), división (/) y módulo (%).**
 
@@ -81,7 +81,7 @@
 >
 ---
 
-### **✏️ Actividad: Usando los operadores de comparación**
+### **✏️ Actividad 3: Usando los operadores de comparación**
 
 **En este ejercicio, usarás los operadores de comparación y lógicos en Java. Interactuarás con el usuario para comparar dos números ingresados y evaluar diversas condiciones utilizando operadores como mayor que, distinto que y divisible por dos. De esta manera, comprenderás cómo funcionan y cuál es su sintaxis, así como su aplicación en la lógica de programación.**
 
@@ -112,11 +112,9 @@
 >
 ---
 
-### **✏️ Actividad: Ejercicios Complementarios**
+### **✏️ Actividad 4: Verificación de Edad**
 
-**✨ Estos ejercicios son de tipo complementario. Esto quiere decir que te ayudará a avanzar en profundidad en el tema visto. Te recomendamos intentar con tu equipo trabajar al menos uno de ellos.**
-
-**1. Verificación de Edad**
+**Verificación de Edad**
 
 - **Pide al usuario que ingrese su año de nacimiento y almacena el dato en una variable previamente declarada llamada añoNacimiento.**
 - **Declara una variable del tipo Constante llamado ANIOACTUAL con el año actual.**
@@ -129,7 +127,10 @@
 > 💡[**Problema Resuelto**](Clase2/src/Actividad4.java)
 >
 
-**2. Calculadora de Área y Perímetro:**
+---
+### **✏️ Actividad 5: Calculadora de Área y Perímetro:**
+
+**Calculadora de Área y Perímetro:**
 
 - **Pide al usuario que ingrese el valor de la base y de la altura de un rectángulo.**
 - **Almacena estos valores en variables previamente declaradas llamadas baseRectangulo y alturaRectangulo, respectivamente.**
