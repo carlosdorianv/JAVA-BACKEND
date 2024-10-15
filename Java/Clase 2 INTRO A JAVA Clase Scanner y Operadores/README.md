@@ -45,12 +45,12 @@
 1. **Solicita al usuario que ingrese su nombre (cadena de texto), guárdalo en una variable e imprime el dato por consola..**
 2. **Solicita al usuario que ingrese su edad (número), guárdalo en una variable e imprime el dato por consola..**
 3. **Luego imprime en pantalla un mensaje que diga “Su nombres es [nombre del usuario] y su edad es [edad del usuario]”.**
-> 💡[**Problema Resuelto**](Clase 2/src/Actividad1.java)
->
 > 💡A tener en cuenta:
 > 
 > - **Evalúa al declarar tus variables que “tipo” de dato almacenará.**
 > - **Al nombrar tus variables, considera las convenciones utilizadas para hacerlo.**
+
+> 💡[**Problema Resuelto**](Clase2/src/Actividad1.java)
 
 # **👣 Utilizando los operadores de Java**
 
@@ -77,7 +77,7 @@
 1. **Declara dos variables, y asígnales un valor a cada una de ellas.**
 2. **Realiza las 5 operaciones básicas posibles en Java y muestra el resultado en consola. Te animamos a mostrar el resultado dentro de un texto para que se vea ordenado el resultado, Ej: La suma de las 2 variables es : “[resultado]”;**
 3. **Posteriormente, pide al usuario que ingrese dos números, guardarlos en variables previamente declaradas, realiza la suma de los números y muestra el resultado en la consola.**
-> 💡[**Problema Resuelto**](Clase 2/src/Actividad2.java)
+> 💡[**Problema Resuelto**](Clase2/src/Actividad2.java)
 >
 ---
 
@@ -108,7 +108,7 @@
 
 > 💡Los operadores lógicos más utilizados en Java son: AND (&&), OR (||), siendo AND = y  / OR = o.
 
-> 💡[**Problema Resuelto**](Clase 2/src/Actividad3.java)
+> 💡[**Problema Resuelto**](Clase2/src/Actividad3.java)
 >
 ---
 
@@ -126,7 +126,7 @@
 > 💡Al declarar la variable del tipo constante, recuerda las convenciones recomendadas para hacerlo.
 >
 
-> 💡[**Problema Resuelto**](Clase 2/src/Actividad4.java)
+> 💡[**Problema Resuelto**](Clase2/src/Actividad4.java)
 >
 
 **2. Calculadora de Área y Perímetro:**
@@ -140,6 +140,6 @@
 
 > 💡 Recuerda: Al declarar las variables, ten en cuenta si los valores ingresados por el usuario pueden ser decimales. En tal caso, debes utilizar variables de tipo flotante o doble para garantizar una precisión decimal adecuada.
 
-> 💡[**Problema Resuelto**](Clase 2/src/Actividad5.java)
+> 💡[**Problema Resuelto**](Clase2/src/Actividad5.java)
 >
 ---

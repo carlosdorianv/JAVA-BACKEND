@@ -32,7 +32,7 @@
 ### **✏️ Actividad 1: Clasificación de Números**
 
 **En esta actividad, deberás escribir un programa que solicite al usuario un número y determine si es positivo, negativo o cero. El resultado se mostrará en pantalla.**
-> [**💡Problema Resuelto**](Clase4/src/Actividad1.java)
+> 💡[**Problema Resuelto**](Clase4/src/Actividad1.java)
 # **👣 Profundizando el uso de estructuras de control**
 
 **¡Felicitaciones! ya lograste tu primer ejercicio con la estructura de control if, if-else.**
@@ -63,7 +63,7 @@
 **El programa mostrará en la consola el valor de la calificación obtenida.**
 
 **Realiza varias pruebas de tu programa, para asegurarte que la lógica implementada sea la correcta.**
-> [**💡Problema Resuelto**](Clase4/src/Actividad2.java)
+> 💡[**Problema Resuelto**](Clase4/src/Actividad2.java)
 ---
 
 ### **✏️ Actividad 3: Divisibilidad**
@@ -72,7 +72,7 @@
 
 > 💡 Un número es divisible por otro si al dividirlos no queda ningún residuo. Por ejemplo, si el residuo de la división es cero, entonces el número es divisible por el otro. Utilizaremos el operador de módulo (%) para verificar si un número es divisible por otro en este ejercicio.
 
-> [**💡Problema Resuelto**](Clase4/src/Actividad3.java)
+> 💡[**Problema Resuelto**](Clase4/src/Actividad3.java)
 ---
 
 ### **✏️ Actividad 4: Ejercicio Verificación de Contraseña**
@@ -80,13 +80,13 @@
 **Verificación de Contraseña:**
 
 **En este ejercicio, escribirás un programa que pida al usuario una contraseña y verificará si coincide con una contraseña predefinida. Si la contraseña ingresada es correcta, se mostrará un mensaje de "Acceso concedido". En caso contrario, se mostrará un mensaje de "Acceso denegado".**
-> [**💡Problema Resuelto**](Clase4/src/Actividad4.java)
+> 💡[**Problema Resuelto**](Clase4/src/Actividad4.java)
 ---
 ### **✏️ Actividad 5: Ejercicio Calculo de Descuento**
 **Cálculo de Descuento:**
 
 **En este ejercicio, desarrollarás un programa que solicitará al usuario el precio de un producto y determinará si tiene derecho a un descuento. Si el precio es igual o mayor a $100, se aplicará un descuento del 10% y se mostrará el nuevo precio con descuento. De lo contrario, se mostrará el precio original sin descuento.**
-> [**💡Problema Resuelto**](Clase4/src/Actividad5.java)
+> 💡[**Problema Resuelto**](Clase4/src/Actividad5.java)
 ---
 ### **✏️ Actividad 6: Determinación de Edades**
 **Determinación de Edades**
@@ -98,6 +98,6 @@
 - **Si la edad es igual o mayor a 65 años, mostrar el mensaje "Eres un adulto mayor".**
 
 **El programa deberá mostrar el mensaje correspondiente según la categoría de edad en la que se encuentre el usuario.**
-> [**💡Problema Resuelto**](Clase4/src/Actividad6.java)
+> 💡[**Problema Resuelto**](Clase4/src/Actividad6.java)
 ---
 

@@ -41,7 +41,7 @@
 3. **Muestra el resultado en la consola.**
 
 **Recuerda utilizar el operador ternario para simplificar la lógica del programa y optimizar su escritura.**
-> 💡[**Problema Resuelto**](Clase 3/src/Actividad1.java)
+> 💡[**Problema Resuelto**](Clase3/src/Actividad1.java)
 >
 # **👣 Desafío II**
 
@@ -71,4 +71,4 @@
 
 > 💡 Si has completado las actividades propuestas y dispones de tiempo adicional, considera renderizar tu código. Mejorar la legibilidad y claridad del código facilita su comprensión y colaboración.
 
-> 💡[**Problema Resuelto**](Clase 3/src/Actividad2.java)
+> 💡[**Problema Resuelto**](Clase3/src/Actividad2.java)

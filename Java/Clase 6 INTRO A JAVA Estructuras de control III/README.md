@@ -40,7 +40,7 @@
 ### **✏️ Actividad 1: Division Segura**
 
 **Escribe un programa que pida al usuario que ingrese dos números enteros y realice la división del primer número entre el segundo número. Implementa un bloque "try-catch" para manejar la excepción en caso de que se intente realizar una división por cero. En caso de que ocurra la excepción, muestra un mensaje apropiado en la pantalla.**
-> [**💡Problema Resuelto**](Clase6/src/Actividad1.java)
+> 💡[**Problema Resuelto**](Clase6/src/Actividad1.java)
 ---
 
 ### **✏️ Actividad 2: Resta con Manejo de Excepciones**
@@ -50,7 +50,7 @@
 > 💡Recuerda, que en la documentación oficial, podrás conocer los tipos de excepciones existentes, te invitamos a acceder para investigar sobre las mismas.
 > 
 
-> [**💡Problema Resuelto**](Clase6/src/Actividad2.java)
+> 💡[**Problema Resuelto**](Clase6/src/Actividad2.java)
 
 # **👣 Continuando en el uso de bloque Try & Catch**
 
@@ -72,5 +72,5 @@
 
 
 
-> [**💡Problema Resuelto**](Clase6/src/Actividad3.java)
+>💡[**Problema Resuelto**](Clase6/src/Actividad3.java)
 ---

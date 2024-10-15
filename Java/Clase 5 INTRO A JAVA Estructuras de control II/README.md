@@ -33,7 +33,7 @@
 ### **✏️ Actividad 1: Ejercicio de Días de la Semana**
 
 **En esta actividad, escribirás un programa que solicite al usuario ingresar un número del 1 al 7, que representará un día de la semana. Luego, el programa mostrará en pantalla el nombre correspondiente a ese día. Utilizaremos la estructura "switch" para implementar este programa.**
-> [**💡Problema Resuelto**](Clase5/src/Actividad1.java)
+> 💡[**Problema Resuelto**](Clase5/src/Actividad1.java)
 ---
 
 ### **✏️ Actividad 2: Conversión de Calificaciones**
@@ -45,7 +45,7 @@
 - **3: "Suficiente"**
 - **4: "Notable"**
 - **5: "Sobresaliente"**
-> [**💡Problema Resuelto**](Clase5/src/Actividad2.java)
+> 💡[**Problema Resuelto**](Clase5/src/Actividad2.java)
 ---
 # **👣 Seguimos con estructuras de control: Switch**
 
@@ -61,7 +61,7 @@
 **El programa solicitará al usuario que ingrese un número del 1 al 3 para seleccionar una opción.**
 
 **Utilizarás la estructura "switch" para implementar este programa y mostrar en pantalla el mensaje correspondiente a la opción seleccionada.**
-> [**💡Problema Resuelto**](Clase5/src/Actividad3.java)
+> 💡[**Problema Resuelto**](Clase5/src/Actividad3.java)
 ---
 
 ### **✏️ Actividad 4: Selección de Figura Geométrica**
@@ -73,7 +73,7 @@
 - **Para el triángulo: la base y la altura.**
 
 **Finalmente, el programa mostrará en pantalla el área correspondiente a la figura seleccionada.**
-> [**💡Problema Resuelto**](Clase5/src/Actividad4.java)
+> 💡[**Problema Resuelto**](Clase5/src/Actividad4.java)
 ---
 
 
@@ -81,7 +81,7 @@
 1.**Verificación de Día Hábil**
 
 **En este ejercicio, crearás un programa que pedirá al usuario ingresar un número del 1 al 7, representando un día de la semana. El programa determinará si ese día es hábil o no. Se mostrará el resultado en pantalla. Se considera que los días hábiles son del 1 al 5 (de lunes a viernes). Utilizaremos la estructura "switch" para implementar este programa. ( Ten en cuenta que los días hábiles son del 1 al 5 (de lunes a viernes).)**
-> [**💡Problema Resuelto**](Clase5/src/Actividad5.java)
+> 💡[**Problema Resuelto**](Clase5/src/Actividad5.java)
 ---
 ### **✏️ Actividad 6: Calculadora de Área y Perímetro**
 1. **Calculadora de Área y Perímetro:**
@@ -93,5 +93,5 @@
         2. **Para el Rectángulo: Solicita el valor de la base y de la altura.**
     3. **Dentro de la opción elegida, permite al usuario seleccionar si desea conocer el área o el perímetro de dicha figura.**
     4. **Realiza los cálculos necesarios y muestra el resultado por consola junto con un mensaje adecuado.**
-> [**💡Problema Resuelto**](Clase5/src/Actividad6.java)
+> 💡[**Problema Resuelto**](Clase5/src/Actividad6.java)
 ---
