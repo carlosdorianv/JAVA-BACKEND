@@ -1,42 +1,55 @@
 import java.util.Scanner;
+
 public class Actividad5 {
 
-//    Escribe un programa que pida al usuario un número positivo y calcule su raíz cuadrada utilizando el
-//    métdo sqrt() de la clase Math. Si el número ingresado es negativo, muestra un mensaje adecuado en pantalla.
-
-    public double ingresoNumero(Scanner scanner){
+    // Métdo para ingresar un número por parte del usuario
+    public double ingresoNumero(Scanner scanner) {
         double numero = 0;
-        try{
-            System.out.println("Ingrese su numero");
+        try {
+            System.out.println("Ingrese su número:");
             numero = scanner.nextDouble();
-        }catch (Exception e){
-            System.out.println("Numero ingresado no valido " + e.getMessage());
-            System.exit(1);
-        }return numero;
+        } catch (Exception e) {
+            System.out.println("Número ingresado no válido: " + e.getMessage());
+            scanner.next();  // Limpiar la entrada inválida
+        }
+        return numero;
     }
 
+    // Métdo para calcular la raíz cuadrada utilizando Math.sqrt(), pero solo si el número no es negativo
     public double calcularRaiz(double numero) {
-        double raizCuadrada = 0;
+        double raizCuadrada = -1;
         try {
             // Verificar si el número es negativo
             if (numero < 0) {
                 System.out.println("Error: No se puede calcular la raíz cuadrada de un número negativo.");
-                System.exit(1);
             } else {
                 raizCuadrada = Math.sqrt(numero);
             }
         } catch (Exception e) {
-            System.out.println("Error: Debes ingresar un número válido.");
-            System.exit(1);
-        }return raizCuadrada;
+            System.out.println("Error: No se pudo calcular la raíz cuadrada. Detalles: " + e.getMessage());
+        }
+        return raizCuadrada;
     }
 
-    public void mostrarNumero(double raizCuadrada, double numero){
-        System.out.println("La raíz cuadrada de " + numero + " es: " + raizCuadrada);
+    // Métdo para mostrar el resultado
+    public void mostrarNumero(double raizCuadrada, double numero) {
+        if(raizCuadrada != -1){
+            System.out.println("La raíz cuadrada de " + numero + " es: " + raizCuadrada);
+        }
     }
-    public void procesarActividad5(Scanner scanner){
-        double numero = ingresoNumero(scanner);
-        double raizCuadrada = calcularRaiz(numero);
-        mostrarNumero(raizCuadrada,numero);
+
+    // Métdo principal que coordina la ejecución de la actividad
+    public void procesarActividad5() {
+        Scanner scanner = new Scanner(System.in);
+        try {
+            double numero = ingresoNumero(scanner);  // Ingresar el número
+            double raizCuadrada = calcularRaiz(numero);  // Calcular la raíz cuadrada
+            mostrarNumero(raizCuadrada, numero);  // Mostrar el resultado
+        } catch (Exception e) {
+            System.out.println("Error inesperado actividad 5: " + e.getMessage());
+        }finally {
+            // Cerramos el scanner en el bloque finally para asegurar que siempre se cierre
+            scanner.close();
+        }
     }
 }

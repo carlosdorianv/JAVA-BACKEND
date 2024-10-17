@@ -2,30 +2,35 @@ import java.util.Scanner;
 
 public class Actividad3 {
 
-//    Escribe un programa que genere y muestre en pantalla un número aleatorio en el rango del 1 al 355  utilizando
-//    el métdo random() de la clase Math. Puedes utilizar el métdo floor() para redondear el número
-//     aleatorio hacia abajo.
-
+    // Métdo para generar un número aleatorio en el rango de 1 a 355 utilizando Math.random() y Math.floor()
     public int generarNumeroAleatorio() {
-        int numero = 0;  // Inicializar la variable
+        int numero = 0;
         try {
-            numero = (int) Math.floor(Math.random() * 355) + 1;
+            numero = (int) Math.floor(Math.random() * 355) + 1;  // Genera número entre 1 y 355
         } catch (Exception e) {
             System.out.println("Error generando el número aleatorio: " + e.getMessage());
-            System.exit(1);
-        }return numero;
+        }
+        return numero;
     }
-    public void mostrarNumeroAleatorio(int numero){
-       try{
-           System.out.println("Número aleatorio generado: " + numero);
-       } catch (RuntimeException e) {
-           System.out.println("Error al mostar numero aleatorio " + e.getMessage());
-           System.exit(1);
-       }
-        // Mostrar el número aleatorio en pantalla
+
+    // Métdo para mostrar el número aleatorio generado
+    public void mostrarNumeroAleatorio(int numero) {
+        try {
+            System.out.println("Número aleatorio generado: " + numero);
+        } catch (RuntimeException e) {
+            System.out.println("Error al mostrar el número aleatorio: " + e.getMessage());
+        }
     }
-    public void procesarActividad3(Scanner scanner){
-        int numero = generarNumeroAleatorio();
-        mostrarNumeroAleatorio(numero);
+
+    // Métdo principal que coordina la ejecución de la actividad
+    public void procesarActividad3() {
+        Scanner scanner = new Scanner(System.in);
+        try {
+            int numero = generarNumeroAleatorio();
+            mostrarNumeroAleatorio(numero);
+        } finally {
+            // Cerramos el scanner en el finally para asegurar que siempre se cierre
+            scanner.close();
+        }
     }
 }
