@@ -48,18 +48,18 @@ JAVA BACKEND DEVELOPER
 
 3. INTRO A JAVA
 
-    [1. Primeros Pasos con Java](Java/Clase%201%20INTRO%20A%20JAVA%20Primeros%20Pasos%20con%20Java)
+    [1. Primeros Pasos con Java](Java/Clase%2001%20INTRO%20A%20JAVA%20Primeros%20Pasos%20con%20Java)
 
-    [2. Clase Scanner y Operadores](Java/Clase%202%20INTRO%20A%20JAVA%20Clase%20Scanner%20y%20Operadores)
+    [2. Clase Scanner y Operadores](Java/Clase%2002%20INTRO%20A%20JAVA%20Clase%20Scanner%20y%20Operadores)
 
-    [3. Actividad Integradora I](Java/Clase%203%20INTRO%20A%20JAVA%20Actividad%20Integradora%20I)
+    [3. Actividad Integradora I](Java/Clase%2003%20INTRO%20A%20JAVA%20Actividad%20Integradora%20I)
 
-    [4. Estructuras de control I](Java/Clase%204%20INTRO%20A%20JAVA%20Estructuras%20de%20control%20I)
+    [4. Estructuras de control I](Java/Clase%2004%20INTRO%20A%20JAVA%20Estructuras%20de%20control%20I)
 
-    [5. Estructuras de control II](Java/Clase%205%20INTRO%20A%20JAVA%20Estructuras%20de%20control%20II)
+    [5. Estructuras de control II](Java/Clase%2005%20INTRO%20A%20JAVA%20Estructuras%20de%20control%20II)
 
-    [6. Estructuras de control III](Java/Clase%206%20INTRO%20A%20JAVA%20Estructuras%20de%20control%20III)
+    [6. Estructuras de control III](Java/Clase%2006%20INTRO%20A%20JAVA%20Estructuras%20de%20control%20III)
 
-    [7. Clase String](Java/Clase%207%20INTRO%20A%20JAVA%20Clase%20String)
+    [7. Clase String](Java/Clase%2007%20INTRO%20A%20JAVA%20Clase%20String)
 
-    [8. Clase Math](Java/Clase%208%20INTRO%20A%20JAVA%20Clase%20Math)
+    [8. Clase Math](Java/Clase%2008%20INTRO%20A%20JAVA%20Clase%20Math)
