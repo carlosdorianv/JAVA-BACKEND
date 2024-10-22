@@ -63,3 +63,11 @@ JAVA BACKEND DEVELOPER
     [7. Clase String](Java/Clase%2007%20INTRO%20A%20JAVA%20Clase%20String)
 
     [8. Clase Math](Java/Clase%2008%20INTRO%20A%20JAVA%20Clase%20Math)
+
+    [9. Clase Actividad Integradora II](Java/Clase%2009%20INTRO%20A%20JAVA%20Actividad%20Integradora%20II)
+
+    [10. Clase Arrays](Java/Clase%2010%20INTRO%20A%20JAVA%20Arrays)
+
+    [11. Clase Bucles I](Java/Clase%2011%20INTRO%20A%20JAVA%20Bucles%20I)
+
+    [12. Clase Bucles II](Java/Clase%2012%20INTRO%20A%20JAVA%20Bucles%20II)
