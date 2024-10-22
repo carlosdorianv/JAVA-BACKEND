@@ -31,7 +31,7 @@ public class Actividad6 {
                 } else {
                     System.out.println("Entrada no válida. Por favor, ingresa un número entero.");
                     scanner.nextLine();
-                    continue; 
+                    continue;
                 }
             }
 
