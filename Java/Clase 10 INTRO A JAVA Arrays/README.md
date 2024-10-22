@@ -1,16 +1,14 @@
-# Clase 8
+# Clase 10
 
-# **🏠 Introducción Clase Math**
+# **🏠 Introducción a arrays**
 
 # **👋 Introducción**
 
-**¡Te damos la bienvenida a tu próximo paso! La clase Math es como una caja de herramientas matemáticas que te proporciona métodos estáticos para realizar operaciones numéricas comunes y complejas, las cuales son esenciales en el desarrollo de programas.**
+**¡Bienvenido nuevamente! En el mundo de la programación en Java, los arrays son una herramienta fundamental que nos permite almacenar y manipular colecciones de elementos de manera eficiente.**
 
-**La clase Math en Java es parte del paquete java.lang y no necesitas importarla para su uso. Ofrece una amplia gama de métodos estáticos para realizar tareas matemáticas, que van desde funciones básicas como el cálculo de un valor absoluto, redondeos y generación de números aleatorios, hasta operaciones más avanzadas como trigonometría, exponenciación y logaritmos.**
+**Un array en Java es una estructura de datos que puede contener múltiples elementos del mismo tipo, accesibles a través de un índice.**
 
-**Cada ejercicio está diseñado para reforzar tu comprensión de los métodos específicos y su aplicación en situaciones de programación reales.**
-
-**¡Comencemos! 🤓**
+**En esta sección explorarás en detalle el uso de los arrays en Java. Aprenderás cómo declarar, inicializar y trabajar con arrays, así como también cómo aprovechar las propiedades y métodos específicos que nos ofrece este tipo de estructura de datos.**
 
 ---
 
@@ -18,78 +16,71 @@
 
 **Aquí encontrarás el material descargable correspondiente que te dará las bases para tus próximos pasos.**
 
-**👉 [Teoría Clase Math](https://drive.google.com/file/d/1ySXB2gfdhQUzm-cDxZ0TkTNv6dauYe2k/view?usp=drive_link)**
+**👉 [Teoría Arrays](https://drive.google.com/file/d/15lcvZ0gLUuYHrfGcZQGw_06QX9iDz3Br/view?usp=drive_link)**
+
+---
 
 **📢 ¡Importante!**
 
-- **No debes memorizar conceptos o definiciones, concéntrate en entender el concepto. La práctica hará que luego puedas aplicarlo con más agilidad.**
-- **Si hay algo que no comprendes, ¡no te preocupes! Anótalo y pregunta a tus compañeros o mentor en el encuentro en vivo.**
+- **No memorices, concéntrate en entender el concepto. La práctica te dará agilidad.**
+- **Si hay algo que no comprendes, ¡no te preocupes! Resuélvelo junto a tus compañeros o mentor durante el encuentro en vivo.**
 
-# **👣 Practicando con clase Math**
+# **👣 Iniciando con el uso de arrays**
 
-**El propósito de las próximas actividades es que practiques y apliques los métodos de la clase Math en Java. Al completarlas, desarrollarás habilidades para utilizar esta clase y llevar a cabo operaciones matemáticas en tus programas**
-
----
-
-### **✏️ Actividad 1: Calculando el valor absoluto**
-
-**Escribe un programa que  pida al usuario un número entero y muestra en pantalla su valor absoluto utilizando el método abs() de la clase Math.**
-> 💡[**Problema Resuelto**](Clase8/src/Actividad1.java)
----
-
-### **✏️ Actividad 2: Redondeo de números**
-
-**Escribe un programa que pida al usuario un número decimal y muestra en pantalla su valor redondeado utilizando el método round() de la clase Math.**
-> 💡[**Problema Resuelto**](Clase8/src/Actividad2.java)
----
-
-### **✏️ Actividad 3: Generando números aleatorios**
-
-**Escribe un programa que genere y muestre en pantalla un número aleatorio en el rango del 1 al 355  utilizando el método random() de la clase Math. Puedes utilizar el método floor() para redondear el número aleatorio hacia abajo.**
-> 💡[**Problema Resuelto**](Clase8/src/Actividad3.java)
-# **👣 Continuando con clase Math**
-
-**Continuarás practicando con ejercicios de la clase Math. Estos ejercicios son fundamentales para garantizar que tengas una sólida comprensión de las capacidades matemáticas que Java pone a tu disposición.**
-
-> 💡Atención
-> 
-> 
-> **Antes de finalizar su sesión en equipo de hoy, un integrante deberá compartir su pantalla y explicar en detalle cómo resolvió los ejercicios propuestos. Puede ser el facilitador o cualquier compañero que se anime (puedes ser tú 💪).**
-> 
-> **Aprovecha esta oportunidad para enriquecer tu propia resolución y participa activamente haciendo preguntas.**
-> 
+**El propósito de los siguientes ejercicios es mejorar tu manejo de arrays y desarrollar habilidades para llevar a cabo operaciones comunes con ellos. A través de estos ejercicios, podrás familiarizarte con la manipulación de arrays y perfeccionar tus habilidades de programación sin necesidad de utilizar otras herramientas para lograr su resolución.**
 
 ---
 
-### **✏️ Actividad 4: Calculando la potencia**
+### **✏️ Actividad 1: Sumando elementos**
 
-**Escribe un programa que pida al usuario dos números enteros, representando la base y el exponente, y calcula el resultado de elevar la base al exponente utilizando el método pow() de la clase Math. Muestra el resultado en pantalla.**
-> 💡[**Problema Resuelto**](Clase8/src/Actividad4.java)
+**Escribe un programa en el cual se cree una variable de tipo array que contenga tres elementos de tipo entero. El programa debe sumar los tres elementos de forma manual e imprimir por consola el resultado utilizando solamente las herramientas adquiridas hasta el momento.**
+> 💡[**Problema Resuelto**](Clase10/src/Actividad1.java)
 ---
 
-### **✏️ Actividad 5: Calculando la raíz cuadrada**
+### **✏️ Actividad 2: Promediando elementos**
 
-**Escribe un programa que pida al usuario un número positivo y calcule su raíz cuadrada utilizando el método sqrt() de la clase Math. Si el número ingresado es negativo, muestra un mensaje adecuado en pantalla.**
-> 💡[**Problema Resuelto**](Clase8/src/Actividad5.java)
+**Escribe un programa en el cual se cree una variable de tipo array que contenga cuatro elementos de tipo entero. Estos elementos deben ser ingresados por el usuario. El programa debe sumar y promediar los cuatro elementos de forma manual e imprimir por consola el resultado, utilizando solamente las herramientas adquiridas hasta el momento.**
+> 💡[**Problema Resuelto**](Clase10/src/Actividad2.java)
+---
+
+### **✏️ Actividad 3: Encontrando el máximo**
+
+**Escribe un programa en el cual se cree una variable de tipo array que contenga cinco elementos de tipo entero, ingresados por el usuario. El programa debe buscar el máximo e imprimir por consola el resultado utilizando solamente las herramientas adquiridas hasta el momento.**
+> 💡[**Problema Resuelto**](Clase10/src/Actividad3.java)
+---
+
+### **✏️ Actividad 4: Buscando un elemento**
+
+**El programa debe crear un array de tamaño 3 que almacene números enteros. Luego, solicita un número al usuario y muestra por consola si ese número está presente en el array o no. Es importante utilizar únicamente las herramientas aprendidas hasta el momento, sin emplear bucles en el proceso.**
+> 💡[**Problema Resuelto**](Clase10/src/Actividad4.java)
+---
+
+### **✏️ Actividad 5: Copiando elementos**
+
+**Desarrolla un programa que inicie creando un array de 3 enteros, con valores predeterminados. Posteriormente, genera una copia del mismo con una extensión de 2 elementos adicionales.**
+
+**Solicita al usuario que ingrese dos números para ser almacenados en las nuevas posiciones del array.**
+
+**Finalmente, muestra por consola el contenido del nuevo array.**
+
+**Es esencial emplear exclusivamente las herramientas aprendidas hasta el momento, evitando el uso de bucles en el proceso.**
+> 💡[**Problema Resuelto**](Clase10/src/Actividad5.java)
 ---
 
 ### **✏️ Actividad 6: Generando un número aleatorio entre dos límites**
 
-**Generando un número aleatorio entre dos límites**
-
-**Escribe un programa que pida al usuario ingresar dos números enteros: un límite inferior y un límite superior. Luego, utiliza el método random() de la clase Math para generar y mostrar en pantalla un número aleatorio dentro del rango especificado por los límites ingresados.**
-> 💡[**Problema Resuelto**](Clase8/src/Actividad6.java)
+**Escribe un programa en el que se cree una variable de tipo array que contenga seis elementos de tipo entero. El programa debe contar la cantidad de elementos pares presentes en el array y mostrar el resultado por consola utilizando solo las herramientas aprendidas hasta el momento.**
+> 💡[**Problema Resuelto**](Clase10/src/Actividad6.java)
 ---
-### **✏️ Actividad 7: Generación aleatoria y análisis de raíz cuadrada**
 
-**Generación aleatoria y análisis de raíz cuadrada**
+### **✏️ Actividad 7: Sumando elementos en posiciones pares**
 
-**Escribe un programa que cumpla con las siguientes condiciones:**
+**Desarrolla un programa que cree un array de tamaño 5 que almacene números enteros. Luego, suma los elementos ubicados en las posiciones pares del array (es decir, las posiciones 0, 2 y 4) y muestra por consola el resultado de la suma. Utiliza exclusivamente las herramientas aprendidas hasta el momento.**
+> 💡[**Problema Resuelto**](Clase10/src/Actividad7.java)
+---
 
-- **Pide al usuario que ingrese un número entre 1 y 30. Este número será almacenado en una variable llamada numeroLimite .**
-- **Utiliza la clase Math para generar un número aleatorio entre 1 y el numeroLimite recibido del usuario.**
-- **Utiliza el método Math.sqrt() para calcular la raíz cuadrada del número aleatorio generado y muéstralo en pantalla.**
-- **Analiza si el número aleatorio generado es primo y muestra un mensaje en pantalla indicando si lo es o no.**
-- **Finalmente, muestra el número aleatorio generado y su raíz cuadrada en pantalla.**
-> 💡[**Problema Resuelto**](Clase8/src/Actividad7.java)
+### **✏️ Actividad 8: Ordenando Nombres Alfabéticamente**
+
+**Desarrolla un programa que pida al usuario ingresar 4 nombres. Estos nombres serán ordenados alfabéticamente y posteriormente impresos en la consola. Es esencial emplear exclusivamente las herramientas aprendidas hasta el momento.**
+> 💡[**Problema Resuelto**](Clase10/src/Actividad8.java)
 ---

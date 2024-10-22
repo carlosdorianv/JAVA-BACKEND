@@ -20,6 +20,7 @@ public class Actividad1 {
 //
 //      Si ingresa una temperatura no válida, mostrará un mensaje de error.
 
+
     public static void main(String[] args) {
             Scanner scan = new Scanner(System.in);
 

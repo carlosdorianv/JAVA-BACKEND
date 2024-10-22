@@ -20,18 +20,18 @@ public class Actividad6 {
                 numero = scanner.nextInt();
 
                 if (numero % 2 == 0) {
-                    contadorPares++; // Es par
+                    contadorPares++;
                 } else {
-                    contadorImpares++; // Es impar
+                    contadorImpares++;
                 }
             } else {
                 continuar = scanner.next();
                 if (continuar.equalsIgnoreCase("salir")) {
-                    break; // Salir del bucle si se ingresa "salir"
+                    break;
                 } else {
                     System.out.println("Entrada no válida. Por favor, ingresa un número entero.");
-                    scanner.nextLine(); // Limpiar el buffer
-                    continue; // Continuar el bucle
+                    scanner.nextLine();
+                    continue; 
                 }
             }
 

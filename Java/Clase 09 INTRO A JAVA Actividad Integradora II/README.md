@@ -1,55 +1,81 @@
-# Clase 8
+# Clase 9
 
-# **🏠 Introducción Clase Math**
+# **🏠 Objetivos actividades integradoras**
 
 # **👋 Introducción**
 
-**¡Te damos la bienvenida a tu próximo paso! La clase Math es como una caja de herramientas matemáticas que te proporciona métodos estáticos para realizar operaciones numéricas comunes y complejas, las cuales son esenciales en el desarrollo de programas.**
+**¡Bienvenido a tu siguiente paso! En esta ocasión, pondremos a prueba tu comprensión de las estructuras de control en Java a través de la resolución de problemas prácticos y cotidianos. Estos ejercicios no solo solidificarán tu conocimiento teórico, sino que también mejorarán tu habilidad para aplicar lógica en situaciones reales de programación.**
 
-**La clase Math en Java es parte del paquete java.lang y no necesitas importarla para su uso. Ofrece una amplia gama de métodos estáticos para realizar tareas matemáticas, que van desde funciones básicas como el cálculo de un valor absoluto, redondeos y generación de números aleatorios, hasta operaciones más avanzadas como trigonometría, exponenciación y logaritmos.**
+**¿Cuáles deben ser tus objetivos?**
 
-**Cada ejercicio está diseñado para reforzar tu comprensión de los métodos específicos y su aplicación en situaciones de programación reales.**
+- **Descubrir que ya sabes y puedes resolver de manera individual.**
+- **Identificar los elementos que aún necesitas consolidar.**
+- **Transferir el conocimiento adquirido a situaciones novedosas.**
 
-**¡Comencemos! 🤓**
+**Te deseamos un encuentro excelente y desafiante. ¡Que aproveches al máximo la oportunidad!**
 
----
+# **👣 Desafío I**
 
-# **📖 Material Descargable**
-
-**Aquí encontrarás el material descargable correspondiente que te dará las bases para tus próximos pasos.**
-
-**👉 [Teoría Clase Math](https://drive.google.com/file/d/1ySXB2gfdhQUzm-cDxZ0TkTNv6dauYe2k/view?usp=drive_link)**
-
-**📢 ¡Importante!**
-
-- **No debes memorizar conceptos o definiciones, concéntrate en entender el concepto. La práctica hará que luego puedas aplicarlo con más agilidad.**
-- **Si hay algo que no comprendes, ¡no te preocupes! Anótalo y pregunta a tus compañeros o mentor en el encuentro en vivo.**
-
-# **👣 Practicando con clase Math**
-
-**El propósito de las próximas actividades es que practiques y apliques los métodos de la clase Math en Java. Al completarlas, desarrollarás habilidades para utilizar esta clase y llevar a cabo operaciones matemáticas en tus programas**
+**Te invitamos a leer la consigna completa de tu actividad integradora antes de comenzar, para que puedas ordenar los pasos y tener en cuenta los diversos puntos que deberás contemplar.**
 
 ---
 
-### **✏️ Actividad 1: Calculando el valor absoluto**
+### **✏️ Actividad 1: Conversión de unidades de temperatura**
 
-**Escribe un programa que  pida al usuario un número entero y muestra en pantalla su valor absoluto utilizando el método abs() de la clase Math.**
-> 💡[**Problema Resuelto**](Clase8/src/Actividad1.java)
+**Escribe un programa que cumpla con las siguientes condiciones:**
+
+**1. Solicita al usuario ingresar una temperatura y una unidad de medida: Celsius (C) o Fahrenheit (F).**
+
+**2. Convierte la temperatura a la otra unidad de medida y muestra el resultado en pantalla.**
+
+| **De Celsius a Fahrenheit** | **De Fahrenheit a Celsius** |
+| --- | --- |
+| [°F] = ([°C] × 9 ⁄ 5) + 32 | [°C] = ([°F] − 32) × 5 ⁄ 9 |
+
+**3. El programa debe manejar al menos las siguientes situaciones:**
+
+- **Si ingresa una unidad de medida inválida, mostrará un mensaje de error.**
+- **Si ingresa una temperatura no válida, mostrará un mensaje de error.**
+
+**Te compartimos un ejemplo de ejecución del programa:**
+
+```
+Ingrese la temperatura: 25
+Ingrese la unidad de medida (C/F): F
+```
+
+```
+25 grados Celsius equivale a 77 grados Fahrenheit.
+```
+
+**Y aquí tienes otro ejemplo donde se muestra cómo manejar las situaciones de error:**
+
+```
+Ingrese la temperatura: abc
+Ingrese la unidad de medida (C/F): C
+```
+
+```
+Error: Temperatura no válida. Ingrese una temperatura numérica.
+```
+
+```
+Ingrese la temperatura: 32
+Ingrese la unidad de medida (C/F): K
+```
+
+```
+Error: Unidad de medida no válida. Ingrese C para Celsius o F para Fahrenheit.
+```
+
+**Puedes ampliar este ejercicio y agregar más validaciones o funcionalidades según tus necesidades y habilidades.**
+
+**¡Diviértete resolviendo! 🙌**
+
+> 💡[**Problema Resuelto**](Clase9/src/Actividad1.java)
 ---
 
-### **✏️ Actividad 2: Redondeo de números**
-
-**Escribe un programa que pida al usuario un número decimal y muestra en pantalla su valor redondeado utilizando el método round() de la clase Math.**
-> 💡[**Problema Resuelto**](Clase8/src/Actividad2.java)
----
-
-### **✏️ Actividad 3: Generando números aleatorios**
-
-**Escribe un programa que genere y muestre en pantalla un número aleatorio en el rango del 1 al 355  utilizando el método random() de la clase Math. Puedes utilizar el método floor() para redondear el número aleatorio hacia abajo.**
-> 💡[**Problema Resuelto**](Clase8/src/Actividad3.java)
-# **👣 Continuando con clase Math**
-
-**Continuarás practicando con ejercicios de la clase Math. Estos ejercicios son fundamentales para garantizar que tengas una sólida comprensión de las capacidades matemáticas que Java pone a tu disposición.**
+# **👣 Desafío II**
 
 > 💡Atención
 > 
@@ -61,35 +87,33 @@
 
 ---
 
-### **✏️ Actividad 4: Calculando la potencia**
+### **✏️ Actividad 2:Validación de contraseña**
 
-**Escribe un programa que pida al usuario dos números enteros, representando la base y el exponente, y calcula el resultado de elevar la base al exponente utilizando el método pow() de la clase Math. Muestra el resultado en pantalla.**
-> 💡[**Problema Resuelto**](Clase8/src/Actividad4.java)
----
+**Escribe un programa que solicite al usuario que ingrese una contraseña y verifique si cumple con los siguientes criterios para considerarse segura:**
 
-### **✏️ Actividad 5: Calculando la raíz cuadrada**
+- **La contraseña debe tener al menos 8 caracteres.**
+- **La contraseña debe contener al menos una letra mayúscula y una letra minúscula.**
+- **La contraseña debe contener al menos un número.**
+- **La contraseña debe contener al menos un carácter especial (por ejemplo, !, @, #, $).**
 
-**Escribe un programa que pida al usuario un número positivo y calcule su raíz cuadrada utilizando el método sqrt() de la clase Math. Si el número ingresado es negativo, muestra un mensaje adecuado en pantalla.**
-> 💡[**Problema Resuelto**](Clase8/src/Actividad5.java)
----
+**El programa debe mostrar un mensaje indicando si la contraseña es segura o no, según los criterios establecidos. Puedes utilizar métodos de la clase String para verificar cada uno de los criterios.**
 
-### **✏️ Actividad 6: Generando un número aleatorio entre dos límites**
+**Te compartimos un ejemplo de ejecución del programa:**
 
-**Generando un número aleatorio entre dos límites**
+```
+Ingrese su contraseña: Abc123!@#
+¡Contraseña segura! Cumple con todos los criterios.
+```
 
-**Escribe un programa que pida al usuario ingresar dos números enteros: un límite inferior y un límite superior. Luego, utiliza el método random() de la clase Math para generar y mostrar en pantalla un número aleatorio dentro del rango especificado por los límites ingresados.**
-> 💡[**Problema Resuelto**](Clase8/src/Actividad6.java)
----
-### **✏️ Actividad 7: Generación aleatoria y análisis de raíz cuadrada**
+**Y aquí tienes otro ejemplo donde se muestra cómo manejar una contraseña no segura:**
 
-**Generación aleatoria y análisis de raíz cuadrada**
+```
+Ingrese su contraseña: password123
+Contraseña no segura. Debe tener al menos una letra mayúscula y un carácter especial.
+```
 
-**Escribe un programa que cumpla con las siguientes condiciones:**
+**Puedes personalizar los criterios de seguridad de la contraseña y agregar más validaciones según tus necesidades. También puedes implementar un bucle para permitir que el usuario vuelva a ingresar la contraseña en caso de que no cumpla con los criterios de seguridad.**
 
-- **Pide al usuario que ingrese un número entre 1 y 30. Este número será almacenado en una variable llamada numeroLimite .**
-- **Utiliza la clase Math para generar un número aleatorio entre 1 y el numeroLimite recibido del usuario.**
-- **Utiliza el método Math.sqrt() para calcular la raíz cuadrada del número aleatorio generado y muéstralo en pantalla.**
-- **Analiza si el número aleatorio generado es primo y muestra un mensaje en pantalla indicando si lo es o no.**
-- **Finalmente, muestra el número aleatorio generado y su raíz cuadrada en pantalla.**
-> 💡[**Problema Resuelto**](Clase8/src/Actividad7.java)
+**¡Diviértete resolviendo! 🙌**
+> 💡[**Problema Resuelto**](Clase9/src/Actividad2.java)
 ---

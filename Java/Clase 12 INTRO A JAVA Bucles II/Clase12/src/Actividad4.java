@@ -7,11 +7,15 @@ public class Actividad4 {
 //    El programa debe tener en cuenta que el 0 tiene una cifra y también contar las cifras de números negativos.
 
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
+
         System.out.print("Por favor, ingresa un número entero: ");
         int numero = scanner.nextInt();
+
         int contador = 0;
         int numeroAbsoluto = Math.abs(numero);
+
         try {
             if (numeroAbsoluto == 0) {
                 contador = 1;

@@ -1,16 +1,12 @@
-# Clase 8
-
-# **🏠 Introducción Clase Math**
+# Clase 11 Bucles II
 
 # **👋 Introducción**
 
-**¡Te damos la bienvenida a tu próximo paso! La clase Math es como una caja de herramientas matemáticas que te proporciona métodos estáticos para realizar operaciones numéricas comunes y complejas, las cuales son esenciales en el desarrollo de programas.**
+**¡Bienvenido nuevamente!**
 
-**La clase Math en Java es parte del paquete java.lang y no necesitas importarla para su uso. Ofrece una amplia gama de métodos estáticos para realizar tareas matemáticas, que van desde funciones básicas como el cálculo de un valor absoluto, redondeos y generación de números aleatorios, hasta operaciones más avanzadas como trigonometría, exponenciación y logaritmos.**
+**En Java, el bucle for es una estructura de control que permite ejecutar un bloque de código repetidamente un número específico de veces. Este bucle o iteración es muy útil cuando sabemos exactamente cuántas veces queremos repetir una operación.**
 
-**Cada ejercicio está diseñado para reforzar tu comprensión de los métodos específicos y su aplicación en situaciones de programación reales.**
-
-**¡Comencemos! 🤓**
+**Es una herramienta poderosa para automatizar tareas repetitivas y es ampliamente utilizado en el desarrollo de programas en Java.**
 
 ---
 
@@ -18,78 +14,70 @@
 
 **Aquí encontrarás el material descargable correspondiente que te dará las bases para tus próximos pasos.**
 
-**👉 [Teoría Clase Math](https://drive.google.com/file/d/1ySXB2gfdhQUzm-cDxZ0TkTNv6dauYe2k/view?usp=drive_link)**
+**👉 [Teoría Introducción a Bucles](https://drive.google.com/file/d/1WgT-xCUunglpaIlXGZ2_SZnPBHiUb9JW/view?usp=drive_link)**
 
 **📢 ¡Importante!**
 
-- **No debes memorizar conceptos o definiciones, concéntrate en entender el concepto. La práctica hará que luego puedas aplicarlo con más agilidad.**
-- **Si hay algo que no comprendes, ¡no te preocupes! Anótalo y pregunta a tus compañeros o mentor en el encuentro en vivo.**
+- **No memorices, concéntrate en entender el concepto. La práctica te dará agilidad.**
+- **Si hay algo que no comprendes, ¡no te preocupes! Resuélvelo junto a tus compañeros o mentor durante el encuentro en vivo.**
 
-# **👣 Practicando con clase Math**
+# **👣 Ejercitando con el bucle for**
 
-**El propósito de las próximas actividades es que practiques y apliques los métodos de la clase Math en Java. Al completarlas, desarrollarás habilidades para utilizar esta clase y llevar a cabo operaciones matemáticas en tus programas**
-
----
-
-### **✏️ Actividad 1: Calculando el valor absoluto**
-
-**Escribe un programa que  pida al usuario un número entero y muestra en pantalla su valor absoluto utilizando el método abs() de la clase Math.**
-> 💡[**Problema Resuelto**](Clase8/src/Actividad1.java)
----
-
-### **✏️ Actividad 2: Redondeo de números**
-
-**Escribe un programa que pida al usuario un número decimal y muestra en pantalla su valor redondeado utilizando el método round() de la clase Math.**
-> 💡[**Problema Resuelto**](Clase8/src/Actividad2.java)
----
-
-### **✏️ Actividad 3: Generando números aleatorios**
-
-**Escribe un programa que genere y muestre en pantalla un número aleatorio en el rango del 1 al 355  utilizando el método random() de la clase Math. Puedes utilizar el método floor() para redondear el número aleatorio hacia abajo.**
-> 💡[**Problema Resuelto**](Clase8/src/Actividad3.java)
-# **👣 Continuando con clase Math**
-
-**Continuarás practicando con ejercicios de la clase Math. Estos ejercicios son fundamentales para garantizar que tengas una sólida comprensión de las capacidades matemáticas que Java pone a tu disposición.**
-
-> 💡Atención
-> 
-> 
-> **Antes de finalizar su sesión en equipo de hoy, un integrante deberá compartir su pantalla y explicar en detalle cómo resolvió los ejercicios propuestos. Puede ser el facilitador o cualquier compañero que se anime (puedes ser tú 💪).**
-> 
-> **Aprovecha esta oportunidad para enriquecer tu propia resolución y participa activamente haciendo preguntas.**
-> 
+**El propósito de los siguientes ejercicios es practicar el uso del bucle for y desarrollar habilidades para realizar operaciones específicas con arrays. Te ayudarán a mejorar tu comprensión y dominio del bucle for, así como a reforzar tus conocimientos en programación.**
 
 ---
 
-### **✏️ Actividad 4: Calculando la potencia**
+### **✏️ Actividad 1: Imprimiendo elementos**
 
-**Escribe un programa que pida al usuario dos números enteros, representando la base y el exponente, y calcula el resultado de elevar la base al exponente utilizando el método pow() de la clase Math. Muestra el resultado en pantalla.**
-> 💡[**Problema Resuelto**](Clase8/src/Actividad4.java)
+**Escribe un programa que recorra un array de enteros y muestre cada elemento en una línea separada. El tamaño, tipo de datos y la información a contener pueden ser de tu elección.**
+> 💡[**Problema Resuelto**](Clase11/src/Actividad1.java)
 ---
 
-### **✏️ Actividad 5: Calculando la raíz cuadrada**
+### **✏️ Actividad 2: Encontrando el valor mínimo**
 
-**Escribe un programa que pida al usuario un número positivo y calcule su raíz cuadrada utilizando el método sqrt() de la clase Math. Si el número ingresado es negativo, muestra un mensaje adecuado en pantalla.**
-> 💡[**Problema Resuelto**](Clase8/src/Actividad5.java)
+**Escribe un programa que recorra un array de enteros y encuentre el valor mínimo presente en el array. El tamaño y los números  a contener pueden ser de tu elección.**
+> 💡[**Problema Resuelto**](Clase11/src/Actividad2.java)
 ---
 
-### **✏️ Actividad 6: Generando un número aleatorio entre dos límites**
+### **✏️ Actividad 3: Imprimiendo elementos en orden inverso**
 
-**Generando un número aleatorio entre dos límites**
-
-**Escribe un programa que pida al usuario ingresar dos números enteros: un límite inferior y un límite superior. Luego, utiliza el método random() de la clase Math para generar y mostrar en pantalla un número aleatorio dentro del rango especificado por los límites ingresados.**
-> 💡[**Problema Resuelto**](Clase8/src/Actividad6.java)
+**Escribe un programa que recorra un array de enteros y los imprima en orden inverso, comenzando desde el último elemento.. El tamaño y los números  a contener pueden ser de tu elección.**
+> 💡[**Problema Resuelto**](Clase11/src/Actividad3.java)
 ---
-### **✏️ Actividad 7: Generación aleatoria y análisis de raíz cuadrada**
 
-**Generación aleatoria y análisis de raíz cuadrada**
+### **✏️ Actividad 4: Invertir un array**
 
-**Escribe un programa que cumpla con las siguientes condiciones:**
+**Escribe un programa que recorra un array de enteros y lo invierta, es decir, que el primer elemento se convierta en el último y viceversa, luego imprime el array resultante por consola.  El tamaño y los números  a contener pueden ser de tu elección.**
 
-- **Pide al usuario que ingrese un número entre 1 y 30. Este número será almacenado en una variable llamada numeroLimite .**
-- **Utiliza la clase Math para generar un número aleatorio entre 1 y el numeroLimite recibido del usuario.**
-- **Utiliza el método Math.sqrt() para calcular la raíz cuadrada del número aleatorio generado y muéstralo en pantalla.**
-- **Analiza si el número aleatorio generado es primo y muestra un mensaje en pantalla indicando si lo es o no.**
-- **Finalmente, muestra el número aleatorio generado y su raíz cuadrada en pantalla.**
-> 💡[**Problema Resuelto**](Clase8/src/Actividad7.java)
+**IMPORTANTE: Debes invertir de forma permanente el orden de los elementos. Analiza si necesitas hacer uso de elementos auxiliares para concluir el ejercicio.**
+> 💡[**Problema Resuelto**](Clase11/src/Actividad4.java)
+---
+### **✏️ Actividad 5: Calcular suma acumulada:**
+
+**Escribe un programa que recorra un array de enteros y  calcule la suma acumulada de los elementos, reemplazando cada elemento por la suma acumulada hasta ese punto.El tamaño y los números  a contener pueden ser de tu elección.**
+> 💡[**Problema Resuelto**](Clase11/src/Actividad5.java)
+---
+
+### **✏️ Actividad 6: Contando Elementos Pares**
+
+**Escribe un programa que genere un array de 10 elementos de tipo entero. Inicializa cada elemento con un número aleatorio menor a 100 y luego imprime todos los elementos del array en una única línea. Posteriormente, recorre el array para contar los elementos pares y muestra el total en la consola.**
+> 💡[**Problema Resuelto**](Clase11/src/Actividad6.java)
+---
+
+### **✏️ Actividad 7: Calculando el promedio**
+
+**Genera un array de 20 elementos de tipo float, inicializándolo con los números de tu elección. Luego, suma todos los elementos del array y calcula su promedio. Finalmente, muestra por consola tanto el resultado de la suma como el promedio de los elementos.Te sugerimos implementar el uso de la sintaxis de for-each.**
+> 💡[**Problema Resuelto**](Clase11/src/Actividad7.java)
+---
+
+### **✏️ Actividad 8: Concatenando elementos**
+
+**Crea un array del tamaño que prefieras que contenga elementos de tipo cadena. Luego, concatena los elementos en una sola cadena, separados por espacios, e imprime el resultado por consola.**
+> 💡[**Problema Resuelto**](Clase11/src/Actividad8.java)
+---
+
+### **✏️ Actividad 9: Contar ocurrencias**
+
+**Escribe un programa que cree un array de 50 elementos de tipo carácter, inicializándolo con una frase elegida. Luego, solicita al usuario un carácter objetivo y cuenta cuántas veces aparece ese carácter en el array. Finalmente, imprime el resultado por consola.**
+> 💡[**Problema Resuelto**](Clase11/src/Actividad9.java)
 ---
