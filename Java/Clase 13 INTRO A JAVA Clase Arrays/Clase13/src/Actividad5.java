@@ -1,11 +1,27 @@
-public class Actividad5 {
+import java.util.Scanner;
+import java.util.Arrays;
 
-//    El métdo fill() de la clase Arrays cambia todos los elementos en un arreglo por un valor estático,
-//     el índice start (por defecto 0) hasta el índice end (por defecto array.length) y devuelve el arreglo modificado.
-//     Vamos a escribir un programa que solicite al usuario el tamaño para un arreglo y un número entero con el que
-//     quiera rellenarlo. Luego crea el arreglo y utiliza Arrays.fill(). Finalmente, imprime el arreglo resultante.
+public class Actividad5 {
 
     public static void main(String[] args) {
 
+        Scanner scanner = new Scanner(System.in);
+
+
+        System.out.println("Ingrese el número de elementos del arreglo: ");
+        int num = scanner.nextInt();
+
+
+        int[] array = new int[num];
+
+
+        System.out.println("Ingrese el elemento con el que quiere rellenar el arreglo: ");
+        int elemento = scanner.nextInt();
+
+
+        Arrays.fill(array, elemento);
+
+
+        System.out.println("Arreglo resultante: " + Arrays.toString(array));
     }
 }

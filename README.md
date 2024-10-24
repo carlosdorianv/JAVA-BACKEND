@@ -71,3 +71,5 @@ JAVA BACKEND DEVELOPER
     [11. Clase Bucles I](Java/Clase%2011%20INTRO%20A%20JAVA%20Bucles%20I)
 
     [12. Clase Bucles II](Java/Clase%2012%20INTRO%20A%20JAVA%20Bucles%20II)
+
+    [13. Clase Clase Arrays](Java/Clase%2013%20INTRO%20A%20JAVA%20Clase%20Arrays)
